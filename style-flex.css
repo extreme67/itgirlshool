@@ -1,0 +1,61 @@
+.header,
+.left,
+.name1,
+.right {
+  padding: 20px 10px;
+}
+
+.flex-conteiner,
+.main,
+.div {
+  display: flex;
+}
+
+.name1,
+.footer {
+  margin: 10px 10px;
+}
+
+.body {
+  background-color: rgb(199, 247, 231);
+  width: 800px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.main {
+  align-self: center;
+  flex-grow: 1;
+}
+
+.left {
+  background-color: rgb(248, 225, 248);
+  align-self: center;
+  flex-grow: 1;
+}
+
+.name {
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.name1 {
+  background-color: rgb(229, 182, 252);
+  align-self: center;
+  flex-grow: 1;
+}
+
+.right {
+  background-color: rgb(164, 231, 240);
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 300px;
+}
+
+.footer {
+  background-color: azure;
+  padding: 20px 10px;
+  align-self: center;
+  flex-grow: 1;
+}
